@@ -1,0 +1,15 @@
+.mechanic-entry {
+  padding: 13px 0;
+}
+
+.mechanic-entry h3 {
+  font-size: 18px;
+  color: var(--cream);
+}
+
+.mechanic-entry p {
+  font-size: 13px;
+  color: var(--cream-dim);
+  margin-top: 4px;
+  line-height: 1.5;
+}
