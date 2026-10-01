@@ -1,0 +1,32 @@
+.character-entry {
+  padding: 13px 0;
+}
+
+.character-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.character-heading h3 {
+  font-size: 18px;
+  color: var(--cream);
+}
+
+.character-role {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: rgba(242, 177, 52, 0.16);
+  color: var(--gold);
+  padding: 3px 9px;
+  border-radius: 3px;
+}
+
+.character-entry p {
+  font-size: 13px;
+  color: var(--cream-dim);
+  margin-top: 6px;
+  line-height: 1.5;
+}

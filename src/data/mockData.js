@@ -41,6 +41,33 @@ export const mechanics = [
   },
 ]
 
+export const characters = [
+  {
+    id: 'encargado',
+    name: 'Encargado',
+    role: 'Protagonista',
+    description: 'El responsable de mantener la tienda a flote, reponer inventario, cobrar y limpiar.',
+  },
+  {
+    id: 'ladron',
+    name: 'Ladrón',
+    role: 'Amenaza',
+    description: 'Entra sin avisar y busca dinero fácil en la caja si la descuidas.',
+  },
+  {
+    id: 'clientes',
+    name: 'Clientes',
+    role: 'Compradores',
+    description: 'Visitan la tienda en busca de productos; su satisfacción mantiene tu reputación en alto.',
+  },
+  {
+    id: 'dueno',
+    name: 'El Dueño',
+    role: 'Auditor',
+    description: 'Realiza inspecciones sorpresa y multa la mala gestión de la tienda.',
+  },
+]
+
 export const leaderboard = [
   { rank: 1, name: 'Les', score: 1240, result: 'gano' },
   { rank: 2, name: 'Ana', score: 980, result: 'gano' },
@@ -48,15 +75,3 @@ export const leaderboard = [
   { rank: 4, name: 'Fer', score: 540, result: 'perdio' },
   { rank: 5, name: 'Dani', score: 410, result: 'perdio' },
 ]
-
-export const currentShift = {
-  day: 4,
-  totalDays: 7,
-  money: 840,
-  reputation: 6,
-  reputationMax: 10,
-  objectives: [
-    { id: 'obj-reponer', title: 'Rellenar anaqueles', current: 5, target: 5 },
-    { id: 'obj-limpiar', title: 'Limpiar manchas', current: 0, target: 1 },
-  ],
-}

@@ -15,9 +15,9 @@ const tiles = [
     accent: 'gold',
   },
   {
-    to: '/turno',
-    title: 'Tu turno',
-    description: 'Día actual, objetivos pendientes, dinero y reputación.',
+    to: '/personajes',
+    title: 'Personajes',
+    description: 'Conoce al encargado, el ladrón, los clientes y el dueño de la tienda.',
     accent: 'rosso',
   },
 ]
