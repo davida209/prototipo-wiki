@@ -4,6 +4,7 @@
   border-top: 1px solid var(--line);
   background: var(--navy-soft);
   padding-bottom: env(safe-area-inset-bottom, 0px);
+  z-index: 100;
 }
 
 .nav-item {
