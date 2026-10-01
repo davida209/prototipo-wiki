@@ -1,10 +1,15 @@
 .bottom-nav {
-  flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
   display: flex;
   border-top: 1px solid var(--line);
   background: var(--navy-soft);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  z-index: 100;
+  z-index: 999;
 }
 
 .nav-item {
